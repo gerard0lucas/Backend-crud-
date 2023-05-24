@@ -17,7 +17,7 @@ app.use(
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
-app.use("/todo", require("./routes/todorouts"));
+app.use("/api/blogs", require("./routes/todorouts"));
 
 // app.use(errorhandler
 
